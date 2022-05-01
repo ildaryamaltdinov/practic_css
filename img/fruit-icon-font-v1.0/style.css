@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'fruit-icon-font';
+  src:  url('fonts/fruit-icon-font.eot?kx25x4');
+  src:  url('fonts/fruit-icon-font.eot?kx25x4#iefix') format('embedded-opentype'),
+    url('fonts/fruit-icon-font.ttf?kx25x4') format('truetype'),
+    url('fonts/fruit-icon-font.woff?kx25x4') format('woff'),
+    url('fonts/fruit-icon-font.svg?kx25x4#fruit-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fruit-icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_slider_arrow_left:before {
+  content: "\e906";
+}
+.ic_slider_arrow_right:before {
+  content: "\e907";
+}
